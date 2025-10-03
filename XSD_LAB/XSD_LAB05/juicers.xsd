@@ -1,0 +1,42 @@
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://www.juicers.org/"
+           xmlns="http://www.juicers.org/"
+           elementFormDefault="qualified">
+
+    <xs:element name="juicers">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="juicer" minOccurs="0" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="name" type="xs:string"/>
+                            <xs:element name="image">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:pattern value="[images]{0,6}\\[0-9_A-Za-z]+\.(gif|jpg|jpeg|bmp)"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="description" type="xs:string"/>
+                            <xs:element name="warranty" type="xs:string" minOccurs="0"/>
+                            <xs:element name="weight" type="xs:decimal" minOccurs="0"/>
+                            <xs:element name="cost" maxOccurs="unbounded">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:decimal">
+                                            <xs:minInclusive value="0"/>
+                                        <xs:fractionDigits value="2"/>
+                                        <xs:totalDigits value="5"></xs:totalDigits>
+                                        <xs:maxExclusive value="1000"></xs:maxExclusive>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="retailer" type="xs:anyURI"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>

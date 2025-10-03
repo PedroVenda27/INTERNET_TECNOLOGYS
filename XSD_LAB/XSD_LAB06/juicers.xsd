@@ -1,0 +1,56 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://www.juicers.org/"
+           xmlns="http://www.juicers.org/"
+           elementFormDefault="qualified">
+
+    <!-- DEFINIR TIPO "applianceType" (description e warranty) ELEMENTOS COMUNS -->
+    <xs:complexType name="applianceType">
+        <xs:sequence>
+            <xs:element name="description" type="xs:string"/>
+            <xs:element name="warranty" type="xs:string" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <!--  DEFINIR TIPO "juiceApplianceType" ELEMENTOS ESPECIFICOS JUICERS -->
+    <xs:complexType name="juiceApplianceType">
+        <xs:complexContent>
+            <xs:extension base="applianceType">   <!--  BASE DO NOVO TIPO CRIADO -->
+                <xs:sequence>
+                    <xs:element name="name" type="xs:string"/>
+                    <xs:element name="image" type="imageType"/>
+                    <xs:element name="weight" type="xs:decimal" minOccurs="0"/>
+                    <xs:element name="cost" type="moneyType" maxOccurs="unbounded"/>
+                    <xs:element name="retailer" type="xs:anyURI"/>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+
+    <!-- DEFINIR TIPO ELEMENTO IMAGEM -->
+    <xs:simpleType name="imageType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[images]{0,6}\\[0-9_A-Za-z]+\.(gif|jpg|jpeg|bmp)"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <!-- DEFINIR TIPO ELEMENTO COST -->
+    <xs:simpleType name="moneyType">
+        <xs:restriction base="xs:decimal">
+            <xs:minInclusive value="0"/>
+            <xs:fractionDigits value="2"/>
+            <xs:totalDigits value="5"/>
+            <xs:maxExclusive value="1000"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <!-- CRIAR ELEMENTO JUICERS -->
+    <xs:element name="juicers">
+        <xs:complexType>
+            <xs:sequence>
+                <!-- Elemento JUICERS USA juiceApplianceType -->
+                <xs:element name="juicer" type="juiceApplianceType" minOccurs="0" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>
