@@ -6,3 +6,5 @@
 
 # Forçar ficheiros JavaScript a contar como JavaScript
 *.js linguist-language=JavaScript
+
+
