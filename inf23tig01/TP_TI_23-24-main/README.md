@@ -1,12 +1,12 @@
 # **F1 Flying Lap Project**
 
-## **Interface do Utilizador**
+# 1 **Interface do Utilizador**
 
 _Nesta página, irei descrever como organizei as informações no site. Além disso, demonstrarei através de desenhos de planejamento como foi pensada a sua estrutura e a organização das páginas._ 
 
-### **Interface e Funções**
+## 1.1 **Interface e Funções**
 
-#### **Desenhos**
+### 1.1.1 **Desenhos**
 
 _Desenhos de Planejamento do Site_
 
@@ -15,7 +15,7 @@ _Desenhos de Planejamento do Site_
 | ![Desenhos Base Formulação do Site](ImagensMarkDown/Desenho1.jpg) | ![Desenhos Base Formulação do Site](ImagensMarkDown/Desenho2.jpg) |  
 _Descrição: Desenhos iniciais do planejamento do site._ | _Descrição: Detalhes do layout da interface._
 
-#### **Mapa do Site**
+### **Mapa do Site**
 
 Mapa de Ligações do Website Flying Lap F1
 
@@ -24,24 +24,24 @@ _Descrição: Estrutura do mapa de ligações do site._
 
 ---
 
-## **Produto**
+# 2 **Produto**
 
-### **Produto: 1º Website Unicamente em Português sobre F1**
+## 2.1 **Produto: 1º Website Unicamente em Português sobre F1**
 
-#### **Capturas de Tela do Produto**
+### 2.2 **Capturas de Tela do Produto**
 | ![Captura de ecrã 2025-10-03 201645](https://github.com/user-attachments/assets/722fd06c-0a59-4b32-8a2d-f5619d695ad3) | ![Captura de ecrã 2025-10-03 201812](https://github.com/user-attachments/assets/83f2c39e-f162-408a-9fa2-b695802a4faa) |
 |:---:|:---:|
 | ![Captura de ecrã 2025-10-03 201741](https://github.com/user-attachments/assets/038f70c5-b7ab-4bf5-aec5-a9caf073af90) | ![Captura de ecrã 2025-10-03 201702](https://github.com/user-attachments/assets/aa22940f-f325-42b3-ae10-7eaca700533b) |
 
 ---
 
-### **3.1 Instalação**
+# **3 Instalação**
 - A instalação foi realizada com base numa organização no GitHub e com o uso da plataforma Netlify.
 
-### **3.2 Dicas de Funcionamento**
+## **3.2 Dicas de Funcionamento**
 - Atenção: Os botões de "Carrinho" ou "Comprar Agora" são apenas demonstrações, pois o projeto refere-se apenas ao Frontend.
 
-### **3.3 Organização da Interface**
+## **3.3 Organização da Interface**
 - A interface gráfica está organizada com 6 menus: 
   - **Home**
   - **Sobre Nós**
@@ -52,13 +52,13 @@ _Descrição: Estrutura do mapa de ligações do site._
 
 - O calendário permite o acesso às páginas de cada uma das pistas de cada corrida.
 
-### **3.4 Formulário**
+## **3.4 Formulário**
 - O formulário de contacto valida apenas se o campo "email" contiver um formato de email válido.
 - Exemplo: Se for preenchido com um ponto, não será aceito.
 
-### **3.5 Detalhes de Implementação**
+## **3.5 Detalhes de Implementação**
 
-#### **HTML**
+### **HTML**
 
 | Requisito             | Exemplo de Uso                                                                                                                                         |
 |:----------------------:|:------------------------------------------------------------------------------------------------------------------------------------------------------:|
@@ -72,7 +72,7 @@ _Descrição: Estrutura do mapa de ligações do site._
 | **External Link**      | [Exemplo de link externo](https://github.com/PedroVenda27/INTERNET_TECNOLOGYS/blob/main/inf23tig01/TP_TI_23-24-main/Website_inf23tig01/index.html#L223-L228) |
 | **Form**               | [Exemplo de formulário](https://github.com/PedroVenda27/INTERNET_TECNOLOGYS/blob/main/inf23tig01/TP_TI_23-24-main/Website_inf23tig01/contactos.html#L62)   |
 
-#### **CSS**
+### **CSS**
 
 | Requisito                 | Exemplo de Uso                                                                                                                                          |
 |:--------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------:|
@@ -91,7 +91,7 @@ _Descrição: Estrutura do mapa de ligações do site._
 | **Table Style**            | [Exemplo de estilo de tabela](https://github.com/PedroVenda27/INTERNET_TECNOLOGYS/blob/main/inf23tig01/TP_TI_23-24-main/Website_inf23tig01/style.css#L693-L700)     |
 | **Responsivity Style**     | [Exemplo de estilo responsivo](https://github.com/PedroVenda27/INTERNET_TECNOLOGYS/blob/main/inf23tig01/TP_TI_23-24-main/Website_inf23tig01/style.css#L527-L545)   |
 
-#### **XML & XSD**
+### **XML & XSD**
 
 | Requisito     | Exemplo de Uso                                                                                                       |
 |:-------------:|:--------------------------------------------------------------------------------------------------------------------:|
