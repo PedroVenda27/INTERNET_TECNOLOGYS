@@ -1,0 +1,75 @@
+body {
+    /* IMAGEM DE FUNDO */
+    background-image: url('https://img.freepik.com/fotos-gratis/uma-pintura-de-um-lago-de-montanha-com-uma-montanha-ao-fundo_188544-9126.jpg?w=900&t=st=1717114805~exp=1717115405~hmac=4023b066157a5ba88daa7c473575089f3bcee305b3963f2e7c481d437083d37d');
+    /* COR DE FUNDO */
+    /* background-color: gray */
+    background-size: cover; /* COBRIR TOTALIDADE */
+    background-attachment: fixed; /* IMAGEM FIXA */
+    color: rgba(255, 255, 255, 0.9); 
+    text-shadow: 4px 4px 2px #000000; /* SOMBRA DO TEXTO */
+}
+
+/*PSEUDO CLASSES*/
+
+a:link {
+    color: #ffcc00;
+}
+
+/*VISITADO*/
+a:visited {
+    color: #cc00ff; /*#RRGGBB*/
+}
+
+/*RATO POR CIMA*/
+a:hover {
+    color: #00ccff;
+    text-decoration: underline;
+}
+
+/*NO CLIQUE*/
+a:active {
+    color: #ff3300;
+}
+
+/* SELETORES DE TIPO */
+h1 {
+    text-align: center; /* CENTRADO */
+    font-size: 2em; /* TAMANHO DA FONTE UNIDADE RELATIVA */
+}
+
+p {
+    text-align: center; /* CENTRADO */
+    font-size: 1cm; /* TAMANHO DA FONTE UNIDADE ABSOLUTA */
+    margin: 20px; /* MARGEM */
+}
+
+/* CLASSE */
+.destaque {
+    color: rgb(0, 179, 255); /*COR DA FONTE*/
+    text-align: center; /* CENTRADO */
+    background-color: rgba(0, 0, 0, 0.5); /* COR DO FUNDO */
+    border-radius: 10px; /* BORDA ARREDONDADA */
+    padding: 10px; /* PADDING */
+}
+
+/* ID */
+#importante {
+    font-size: 35px; /* TAMANHO DA FONTE UNIDADE RELATIVA */
+    color: rgb(227, 3, 3); /*COR DA FONTE*/
+}
+
+/* NOVOS ESTILOS */
+.menu {
+    display: flex;
+    justify-content: center; /* CENTRADO */
+    align-items: center; /* CENTRADO */
+    height: 100px; /* Definindo uma altura para o container */
+  
+}
+
+.menu img.logo {
+    top: 50%;
+    left: 50%;
+
+}
+
