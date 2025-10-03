@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<garrafas>
+		
+		<garrafa>
+			<nome>“Cristaline”</nome>
+			<volume unidade="cl"> 150</volume>
+			<composicao>
+				<ion>
+					<material> calcio </material>
+				<quantidade unidade="mg/l"> 71 </quantidade>
+					<material> magnesio </material>
+				<quantidade unidade="mg/l"> 5,5 </quantidade>
+					<material> cloretos </material>
+				<quantidade unidade="mg/l"> 20 </quantidade>
+					<material> nitratos </material>
+				<quantidade unidade="mg/l"> 1 </quantidade>
+				</ion>
+			</composicao>
+			<coletada_em> 
+				<city> la Source </city>
+				<country> Loiret </country>
+			</coletada_em>
+			<codigo_barras>3274080005003</codigo_barras>
+			<ph>7,45</ph>
+		</garrafa>
+		
+		<garrafa>
+			<nome>“Cristaline”</nome>
+			<volume unidade="cl"> 50</volume>
+			<composicao>
+				<ion>
+					<material> calcio </material>
+					<quantidade unidade="mg/l"> 98 </quantidade>
+					<material> magnesio </material>
+					<quantidade unidade="mg/l"> 4 </quantidade>
+					<material> cloretos </material>
+					<quantidade unidade="mg/l"> 3,6 </quantidade>
+					<material> nitratos </material>
+					<quantidade unidade="mg/l"> 2 </quantidade>
+				</ion>
+			</composicao>
+			<coletada_em>
+				<city> Alpes Maritimos </city>
+				<country> Aurele </country>
+			</coletada_em>
+			<codigo_barras>3268840001008</codigo_barras>
+			<ph>7,4</ph>
+		</garrafa>
+		
+		<garrafa>
+			<nome>“Volvic”</nome>
+			<volume unidade="cl"> 50</volume>
+			<composicao>
+				<ion>
+					<material> calcio </material>
+					<quantidade unidade="mg/l"> 11,5 </quantidade>
+					<material> magnesio </material>
+					<quantidade unidade="mg/l"> 8,0 </quantidade>
+					<material> cloretos </material>
+					<quantidade unidade="mg/l"> 13,5 </quantidade>
+					<material> nitratos </material>
+					<quantidade unidade="mg/l"> 6,3 </quantidade>
+				</ion>
+			</composicao>
+			<coletada_em>
+				<city> França </city>
+				<country> Volvic </country>
+			</coletada_em>
+			<codigo_barras>3057640117008</codigo_barras>
+			<ph>7</ph>
+		</garrafa>
+
+</garrafas>

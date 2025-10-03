@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<SalaDeAula>
+	<garrafas>
+		
+		<garrafa>
+			<nome>PRIMEIRA GARRAFA</nome>
+			<volume>150 cl</volume>
+			<composicao>
+				<calcio>71 mg/l</calcio>
+				<magnesio>5,5 mg/l</magnesio>
+				<cloretos>20 mg/l</cloretos>
+				<nitratos>1 mg/l</nitratos>
+			</composicao>
+			<coletada_em>StCyr la Source, no condado de Loiret</coletada_em>
+			<codigo_barras>3274080005003</codigo_barras>
+			<ph>7,45</ph>
+			<local_de_coleta>Nascente de Aurèle, no Alpes Marítimos</local_de_coleta>
+		</garrafa>
+		
+		
+		<garrafa>
+			<nome>SEGUNDA GARRAFA</nome>
+			<volume>50 cl</volume>
+			<composicao>
+				<calcio>98 mg/l</calcio>
+				<magnesio>4 mg/l</magnesio>
+				<cloretos>3,6 mg/l</cloretos>
+				<nitratos>2 mg/l</nitratos>
+			</composicao>
+			<coletada_em>Nascente de Aurèle, no Alpes Marítimos</coletada_em>
+			<codigo_barras>3268840001008</codigo_barras>
+			<ph>7,4</ph>
+			<local_de_coleta>Nascente de Aurèle, no Alpes Marítimos</local_de_coleta>
+		</garrafa>
+		
+		
+		<garrafa>
+			<nome>TERCEIRA GARRAFA</nome>
+			<marca>Volvic</marca>
+			<volume>50 cl</volume>
+			<composicao>
+				<calcio>11,5 mg/l</calcio>
+				<magnesio>8,0 mg/l</magnesio>
+				<cloretos>13,5 mg/l</cloretos>
+				<nitratos>6,3 mg/l</nitratos>
+			</composicao>
+			<outros>Contém partículas de sílica</outros>
+			<coletada_em>Nascente de Volvic na região de Auvergne, França</coletada_em>
+			<codigo_barras>3057640117008</codigo_barras>
+			<ph>7</ph>
+		</garrafa>
+		
+		
+	</garrafas>
+	
+</SalaDeAula>

@@ -1,0 +1,15 @@
+<?xml version = "1.0"?>
+
+<SalaDeAula>
+
+    <cadeira>lugar onde as pessoas se ssentam</cadeira>
+    <quadro>lugar de escrita de apontamentos</quadro>
+    <mesa>lugar de onde se colocam os materiais</mesa>
+    <computador>usa-se para pesquisar e fazer exercicios</computador>
+    <projetor>Utilizado para projetar algo neste contexto os slides e instrumentos da materia necessarios</projetor>
+    <professor>Pessoa que leciona a aula</professor>
+	<aluno>Pessoa que Assiste a Aula</aluno>
+	<cabides>Utilizado para colocar ou Pendurar Casacos , Carteiras entre outras Coisas</cabides>
+	<folha_presenças>Utilizado para Anotar alunos presentes na aula</folha_presenças>
+	
+</SalaDeAula>
