@@ -1,0 +1,651 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<calendarioF1>
+    <evento>
+        <nome>GP DO BAHREIN</nome>
+        <data>02 DE MAR. 15:00</data>
+        <detalhesDaPista>https://upload.wikimedia.org/wikipedia/commons/2/2c/Flag_of_Bahrain.svg</detalhesDaPista>
+        <detalhes>
+            <detalhe>
+                <tipo>TREINO LIVRE 1</tipo>
+                <data>29 DE FEV. 11:30</data>
+            </detalhe>
+            <detalhe>
+                <tipo>TREINO LIVRE 2</tipo>
+                <data>29 DE FEV. 15:00</data>
+            </detalhe>
+            <detalhe>
+                <tipo>TREINO LIVRE 3</tipo>
+                <data>01 DE MAR. 12:30</data>
+            </detalhe>
+            <detalhe>
+                <tipo>TREINO CLASSIFICATÓRIO</tipo>
+                <data>01 DE MAR. 16:00</data>
+            </detalhe>
+            <detalhe>
+                <tipo>CORRIDA</tipo>
+                <data>02 DE MAR. 15:00</data>
+            </detalhe>
+        </detalhes>
+    </evento>
+    <evento>
+        <nome>GP DA ARÁBIA SAUDITA</nome>
+        <data>09 DE MAR. 17:00</data>
+        <detalhesDaPista>https://upload.wikimedia.org/wikipedia/commons/0/0d/Flag_of_Saudi_Arabia.svg</detalhesDaPista>
+        <detalhes>
+            <detalhe>
+                <tipo>TREINO LIVRE 1</tipo>
+                <data>07 DE MAR. 13:30</data>
+            </detalhe>
+            <detalhe>
+                <tipo>TREINO LIVRE 2</tipo>
+                <data>07 DE MAR. 17:00</data>
+            </detalhe>
+            <detalhe>
+                <tipo>TREINO LIVRE 3</tipo>
+                <data>08 DE MAR. 13:30</data>
+            </detalhe>
+            <detalhe>
+                <tipo>TREINO CLASSIFICATÓRIO</tipo>
+                <data>08 DE MAR. 17:00</data>
+            </detalhe>
+            <detalhe>
+                <tipo>CORRIDA</tipo>
+                <data>09 DE MAR. 17:00</data>
+            </detalhe>
+        </detalhes>
+    </evento>
+    <evento>
+        <nome>GP DA AUSTRÁLIA</nome>
+        <data>24 DE MAR. 04:00</data>
+        <detalhesDaPista>https://upload.wikimedia.org/wikipedia/commons/b/b9/Flag_of_Australia.svg</detalhesDaPista>
+        <detalhes>
+            <detalhe>
+                <tipo>TREINO LIVRE 1</tipo>
+                <data>22 DE MAR. 01:30</data>
+            </detalhe>
+            <detalhe>
+                <tipo>TREINO LIVRE 2</tipo>
+                <data>22 DE MAR. 05:00</data>
+            </detalhe>
+            <detalhe>
+                <tipo>TREINO LIVRE 3</tipo>
+                <data>23 DE MAR. 01:30</data>
+            </detalhe>
+            <detalhe>
+                <tipo>TREINO CLASSIFICATÓRIO</tipo>
+                <data>23 DE MAR. 05:00</data>
+            </detalhe>
+            <detalhe>
+                <tipo>CORRIDA</tipo>
+                <data>24 DE MAR. 04:00</data>
+            </detalhe>
+        </detalhes>
+    </evento>
+    <evento>
+        <nome>GP DO JAPÃO</nome>
+        <data>07 DE ABR. 06:00</data>
+        <detalhesDaPista>https://upload.wikimedia.org/wikipedia/en/9/9e/Flag_of_Japan.svg</detalhesDaPista>
+        <detalhes>
+            <detalhe>
+                <tipo>TREINO LIVRE 1</tipo>
+                <data>05 DE ABR. 03:30</data>
+            </detalhe>
+            <detalhe>
+                <tipo>TREINO LIVRE 2</tipo>
+                <data>05 DE ABR. 07:00</data>
+            </detalhe>
+            <detalhe>
+                <tipo>TREINO LIVRE 3</tipo>
+                <data>06 DE ABR. 03:30</data>
+            </detalhe>
+            <detalhe>
+                <tipo>TREINO CLASSIFICATÓRIO</tipo>
+                <data>06 DE ABR. 07:00</data>
+            </detalhe>
+            <detalhe>
+                <tipo>CORRIDA</tipo>
+                <data>07 DE ABR. 06:00</data>
+            </detalhe>
+        </detalhes>
+    </evento>
+    <evento>
+        <nome>GP DA CHINA</nome>
+        <data>21 DE ABR. 08:00</data>
+        <detalhesDaPista>https://upload.wikimedia.org/wikipedia/commons/f/fa/Flag_of_the_People%27s_Republic_of_China.svg</detalhesDaPista>
+        <detalhes>
+            <detalhe>
+                <tipo>TREINO LIVRE 1</tipo>
+                <data>19 DE ABR. 04:30</data>
+            </detalhe>
+            <detalhe>
+                <tipo>CLASSIFICAÇÃO SPRINT</tipo>
+                <data>19 DE ABR. 08:30</data>
+            </detalhe>
+            <detalhe>
+                <tipo>CORRIDA SPRINT</tipo>
+                <data>20 DE ABR. 04:00</data>
+            </detalhe>
+            <detalhe>
+                <tipo>TREINO CLASSIFICATÓRIO</tipo>
+                <data>20 DE ABR. 08:00</data>
+            </detalhe>
+            <detalhe>
+                <tipo>CORRIDA</tipo>
+                <data>21 DE ABR. 08:00</data>
+            </detalhe>
+        </detalhes>
+    </evento>
+    <evento>
+        <nome>GP DE MIAMI</nome>
+        <data>05 DE MAI. 21:00</data>
+        <detalhesDaPista>https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg</detalhesDaPista>
+        <detalhes>
+            <detalhe>
+                <tipo>TREINO LIVRE 1</tipo>
+                <data>03 DE MAI. 21:00</data>
+            </detalhe>
+            <detalhe>
+                <tipo>CLASSIFICATÓRIO SPRINT</tipo>
+                <data>03 DE MAI. 17:30</data>
+            </detalhe>
+            <detalhe>
+                <tipo>CORRIDA SPRINT</tipo>
+                <data>03 DE MAI. 21:30</data>
+            </detalhe>
+            <detalhe>
+                <tipo>TREINO CLASSIFICATÓRIO</tipo>
+                <data>04 DE MAI. 21:00</data>
+            </detalhe>
+            <detalhe>
+                <tipo>CORRIDA</tipo>
+                <data>05 DE MAI. 21:00</data>
+            </detalhe>
+        </detalhes>
+    </evento>
+    <evento>
+        <nome>GP DA EMILIA ROMAGNA</nome>
+        <data>19 DE MAI. 14:00</data>
+        <detalhesDaPista>https://upload.wikimedia.org/wikipedia/en/0/03/Flag_of_Italy.svg</detalhesDaPista>
+        <detalhes>
+            <detalhe>
+                <tipo>TREINO LIVRE 1</tipo>
+                <data>17 DE MAI. 14:00</data>
+            </detalhe>
+            <detalhe>
+                <tipo>TREINO LIVRE 2</tipo>
+                <data>17 DE MAI. 12:30</data>
+            </detalhe>
+            <detalhe>
+                <tipo>TREINO LIVRE 3</tipo>
+                <data>18 DE MAI. 11:00</data>
+            </detalhe>
+            <detalhe>
+                <tipo>TREINO CLASSIFICATÓRIO</tipo>
+                <data>18 DE MAI. 14:00</data>
+            </detalhe>
+            <detalhe>
+                <tipo>CORRIDA</tipo>
+                <data>19 DE MAI. 14:00</data>
+            </detalhe>
+        </detalhes>
+    </evento>
+    <evento>
+        <nome>GP DE MÔNACO</nome>
+        <data>26 DE MAI. 14:00</data>
+        <detalhesDaPista>https://upload.wikimedia.org/wikipedia/commons/e/ea/Flag_of_Monaco.svg</detalhesDaPista>
+        <detalhes>
+            <detalhe>
+                <tipo>TREINO LIVRE 1</tipo>
+                <data>24 DE MAI. 12:30</data>
+            </detalhe>
+            <detalhe>
+                <tipo>TREINO LIVRE 2</tipo>
+                <data>24 DE MAI. 16:00</data>
+            </detalhe>
+            <detalhe>
+                <tipo>TREINO LIVRE 3</tipo>
+                <data>25 DE MAI. 11:30</data>
+            </detalhe>
+            <detalhe>
+                <tipo>TREINO CLASSIFICATÓRIO</tipo>
+                <data>25 DE MAI. 15:00</data>
+            </detalhe>
+            <detalhe>
+                <tipo>CORRIDA</tipo>
+                <data>26 DE MAI. 14:00</data>
+            </detalhe>
+        </detalhes>
+    </evento>
+    <evento>
+        <nome>GP DO CANADÁ</nome>
+        <data>09 DE JUN. 14:00</data>
+        <detalhesDaPista>https://upload.wikimedia.org/wikipedia/commons/d/d9/Flag_of_Canada_%28Pantone%29.svg</detalhesDaPista>
+        <detalhes>
+            <detalhe>
+                <tipo>TREINO LIVRE 1</tipo>
+                <data>07 DE JUN. 14:30</data>
+            </detalhe>
+            <detalhe>
+                <tipo>TREINO LIVRE 2</tipo>
+                <data>07 DE JUN. 18:00</data>
+            </detalhe>
+            <detalhe>
+                <tipo>TREINO LIVRE 3</tipo>
+                <data>08 DE JUN. 13:30</data>
+            </detalhe>
+            <detalhe>
+                <tipo>TREINO CLASSIFICATÓRIO</tipo>
+                <data>08 DE JUN. 17:00</data>
+            </detalhe>
+            <detalhe>
+                <tipo>CORRIDA</tipo>
+                <data>09 DE JUN. 15:00</data>
+            </detalhe>
+        </detalhes>
+    </evento>
+    <evento>
+        <nome>GP DA ESPANHA</nome>
+        <data>23 DE JUN. 15:00</data>
+        <detalhesDaPista>https://upload.wikimedia.org/wikipedia/commons/9/9a/Flag_of_Spain.svg</detalhesDaPista>
+        <detalhes>
+            <detalhe>
+                <tipo>TREINO LIVRE 1</tipo>
+                <data>21 DE JUN. 13:30</data>
+            </detalhe>
+            <detalhe>
+                <tipo>TREINO LIVRE 2</tipo>
+                <data>21 DE JUN. 17:00</data>
+            </detalhe>
+            <detalhe>
+                <tipo>TREINO LIVRE 3</tipo>
+                <data>22 DE JUN. 12:30</data>
+            </detalhe>
+            <detalhe>
+                <tipo>TREINO CLASSIFICATÓRIO</tipo>
+                <data>22 DE JUN. 16:00</data>
+            </detalhe>
+            <detalhe>
+                <tipo>CORRIDA</tipo>
+                <data>23 DE JUN. 15:00</data>
+            </detalhe>
+        </detalhes>
+    </evento>
+    <evento>
+        <nome>GP DA ÁUSTRIA</nome>
+        <data>30 DE JUN. 14:00</data>
+        <detalhesDaPista>https://upload.wikimedia.org/wikipedia/commons/4/41/Flag_of_Austria.svg</detalhesDaPista>
+        <detalhes>
+            <detalhe>
+                <tipo>TREINO LIVRE 1</tipo>
+                <data>28 DE JUN. 11:30</data>
+            </detalhe>
+            <detalhe>
+                <tipo>SPRINT QUALIFICATORIO</tipo>
+                <data>28 DE JUN. 15:30</data>
+            </detalhe>
+            <detalhe>
+                <tipo>CORRIDA SPRINT</tipo>
+                <data>29 DE JUN. 11:00</data>
+            </detalhe>
+            <detalhe>
+                <tipo>TREINO CLASSIFICATÓRIO</tipo>
+                <data>29 DE JUN. 15:00</data>
+            </detalhe>
+            <detalhe>
+                <tipo>CORRIDA</tipo>
+                <data>30 DE JUN. 14:00</data>
+            </detalhe>
+        </detalhes>
+    </evento>
+    <evento>
+        <nome>GP DA GRÃ-BRETANHA</nome>
+        <data>07 DE JUL. 15:00</data>
+        <detalhesDaPista>https://upload.wikimedia.org/wikipedia/commons/8/83/Flag_of_the_United_Kingdom_%283-5%29.svg</detalhesDaPista>
+        <detalhes>
+            <detalhe>
+                <tipo>TREINO LIVRE 1</tipo>
+                <data>05 DE JUL. 12:30</data>
+            </detalhe>
+            <detalhe>
+                <tipo>TREINO LIVRE 2</tipo>
+                <data>05 DE JUL. 16:00</data>
+            </detalhe>
+            <detalhe>
+                <tipo>TREINO LIVRE 3</tipo>
+                <data>06 DE JUL. 11:30</data>
+            </detalhe>
+            <detalhe>
+                <tipo>TREINO CLASSIFICATÓRIO</tipo>
+                <data>06 DE JUL. 15:00</data>
+            </detalhe>
+            <detalhe>
+                <tipo>CORRIDA</tipo>
+                <data>07 DE JUL. 15:00</data>
+            </detalhe>
+        </detalhes>
+    </evento>
+    <evento>
+        <nome>GP DA HUNGRIA</nome>
+        <data>21 DE JUL. 14:00</data>
+        <detalhesDaPista>https://upload.wikimedia.org/wikipedia/commons/c/c1/Flag_of_Hungary.svg</detalhesDaPista>
+        <detalhes>
+            <detalhe>
+                <tipo>TREINO LIVRE 1</tipo>
+                <data>19 DE JUL. 12:30</data>
+            </detalhe>
+            <detalhe>
+                <tipo>TREINO LIVRE 2</tipo>
+                <data>19 DE JUL. 16:00</data>
+            </detalhe>
+            <detalhe>
+                <tipo>TREINO LIVRE 3</tipo>
+                <data>20 DE JUL. 11:30</data>
+            </detalhe>
+            <detalhe>
+                <tipo>TREINO CLASSIFICATÓRIO</tipo>
+                <data>20 DE JUL. 15:00</data>
+            </detalhe>
+            <detalhe>
+                <tipo>CORRIDA</tipo>
+                <data>21 DE JUL. 14:00</data>
+            </detalhe>
+        </detalhes>
+    </evento>
+    <evento>
+        <nome>GP DA BÉLGICA</nome>
+        <data>28 DE JUL. 14:00</data>
+        <detalhesDaPista>https://upload.wikimedia.org/wikipedia/commons/6/65/Flag_of_Belgium.svg</detalhesDaPista>
+        <detalhes>
+            <detalhe>
+                <tipo>TREINO LIVRE 1</tipo>
+                <data>26 DE JUL. 12:30</data>
+            </detalhe>
+            <detalhe>
+                <tipo>TREINO LIVRE 2</tipo>
+                <data>26 DE JUL. 16:00</data>
+            </detalhe>
+            <detalhe>
+                <tipo>TREINO LIVRE 3</tipo>
+                <data>27 DE JUL. 11:30</data>
+            </detalhe>
+            <detalhe>
+                <tipo>TREINO CLASSIFICATÓRIO</tipo>
+                <data>27 DE JUL. 15:00</data>
+            </detalhe>
+            <detalhe>
+                <tipo>CORRIDA</tipo>
+                <data>28 DE JUL. 14:00</data>
+            </detalhe>
+        </detalhes>
+    </evento>
+    <evento>
+        <nome>GP DA HOLANDA</nome>
+        <data>25 DE AGO. 14:00</data>
+        <detalhesDaPista>https://upload.wikimedia.org/wikipedia/commons/2/20/Flag_of_the_Netherlands.svg</detalhesDaPista>
+        <detalhes>
+            <detalhe>
+                <tipo>TREINO LIVRE 1</tipo>
+                <data>23 DE AGO. 11:30</data>
+            </detalhe>
+            <detalhe>
+                <tipo>TREINO LIVRE 2</tipo>
+                <data>23 DE AGO. 15:00</data>
+            </detalhe>
+            <detalhe>
+                <tipo>TREINO LIVRE 3</tipo>
+                <data>24 DE AGO. 10:30</data>
+            </detalhe>
+            <detalhe>
+                <tipo>TREINO CLASSIFICATÓRIO</tipo>
+                <data>24 DE AGO. 14:00</data>
+            </detalhe>
+            <detalhe>
+                <tipo>CORRIDA</tipo>
+                <data>25 DE AGO. 14:00</data>
+            </detalhe>
+        </detalhes>
+    </evento>
+    <evento>
+        <nome>GP DA ITÁLIA</nome>
+        <data>01 DE SET. 14:00</data>
+        <detalhesDaPista>https://upload.wikimedia.org/wikipedia/en/0/03/Flag_of_Italy.svg</detalhesDaPista>
+        <detalhes>
+            <detalhe>
+                <tipo>TREINO LIVRE 1</tipo>
+                <data>30 DE AGO. 12:30</data>
+            </detalhe>
+            <detalhe>
+                <tipo>TREINO LIVRE 2</tipo>
+                <data>30 DE AGO. 16:00</data>
+            </detalhe>
+            <detalhe>
+                <tipo>TREINO LIVRE 3</tipo>
+                <data>31 DE AGO. 11:30</data>
+            </detalhe>
+            <detalhe>
+                <tipo>TREINO CLASSIFICATÓRIO</tipo>
+                <data>31 DE AGO. 15:00</data>
+            </detalhe>
+            <detalhe>
+                <tipo>CORRIDA</tipo>
+                <data>01 DE SET. 14:00</data>
+            </detalhe>
+        </detalhes>
+    </evento>
+    <evento>
+        <nome>GP DO AZERBAIJÃO</nome>
+        <data>15 DE SET. 12:00</data>
+        <detalhesDaPista>https://upload.wikimedia.org/wikipedia/commons/d/dd/Flag_of_Azerbaijan.svg</detalhesDaPista>
+        <detalhes>
+            <detalhe>
+                <tipo>TREINO LIVRE 1</tipo>
+                <data>13 DE SET. 10:30</data>
+            </detalhe>
+            <detalhe>
+                <tipo>TREINO LIVRE 2</tipo>
+                <data>13 DE SET. 14:00</data>
+            </detalhe>
+            <detalhe>
+                <tipo>TREINO LIVRE 3</tipo>
+                <data>14 DE SET. 09:30</data>
+            </detalhe>
+            <detalhe>
+                <tipo>TREINO CLASSIFICATÓRIO</tipo>
+                <data>14 DE SET. 13:00</data>
+            </detalhe>
+            <detalhe>
+                <tipo>CORRIDA</tipo>
+                <data>15 DE SET. 12:00</data>
+            </detalhe>
+        </detalhes>
+    </evento>
+    <evento>
+        <nome>GP DE SINGAPURA</nome>
+        <data>22 DE SET. 01:00</data>
+        <detalhesDaPista>https://upload.wikimedia.org/wikipedia/commons/4/48/Flag_of_Singapore.svg</detalhesDaPista>
+        <detalhes>
+            <detalhe>
+                <tipo>TREINO LIVRE 1</tipo>
+                <data>20 DE SET. 10:30</data>
+            </detalhe>
+            <detalhe>
+                <tipo>TREINO LIVRE 2</tipo>
+                <data>20 DE SET. 14:00</data>
+            </detalhe>
+            <detalhe>
+                <tipo>TREINO LIVRE 3</tipo>
+                <data>21 DE SET. 10:30</data>
+            </detalhe>
+            <detalhe>
+                <tipo>TREINO CLASSIFICATÓRIO</tipo>
+                <data>21 DE SET. 14:00</data>
+            </detalhe>
+            <detalhe>
+                <tipo>CORRIDA</tipo>
+                <data>22 DE SET. 01:00</data>
+            </detalhe>
+        </detalhes>
+    </evento>
+    <evento>
+        <nome>GP DOS ESTADOS UNIDOS</nome>
+        <data>18 DE OUT. 20:00</data>
+        <detalhesDaPista>https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg</detalhesDaPista>
+        <detalhes>
+            <detalhe>
+                <tipo>TREINO LIVRE 1</tipo>
+                <data>18 DE OUT. 18:30</data>
+            </detalhe>
+            <detalhe>
+                <tipo>SPRINT QUALIFICATORIO</tipo>
+                <data>18 DE OUT. 22:30</data>
+            </detalhe>
+            <detalhe>
+                <tipo>CORRIDA SPRINT</tipo>
+                <data>19 DE OUT. 19:00</data>
+            </detalhe>
+            <detalhe>
+                <tipo>TREINO CLASSIFICATÓRIO</tipo>
+                <data>19 DE OUT. 23:00</data>
+            </detalhe>
+            <detalhe>
+                <tipo>CORRIDA</tipo>
+                <data>20 DE OUT. 20:00</data>
+            </detalhe>
+        </detalhes>
+    </evento>
+    <evento>
+        <nome>GP DO MÉXICO</nome>
+        <data>27 DE OUT. 20:00</data>
+        <detalhesDaPista>https://upload.wikimedia.org/wikipedia/commons/f/fc/Flag_of_Mexico.svg</detalhesDaPista>
+        <detalhes>
+            <detalhe>
+                <tipo>TREINO LIVRE 1</tipo>
+                <data>25 DE OUT. 19:30</data>
+            </detalhe>
+            <detalhe>
+                <tipo>TREINO LIVRE 2</tipo>
+                <data>25 DE OUT. 23:00</data>
+            </detalhe>
+            <detalhe>
+                <tipo>TREINO LIVRE 3</tipo>
+                <data>26 DE OUT. 18:30</data>
+            </detalhe>
+            <detalhe>
+                <tipo>TREINO CLASSIFICATÓRIO</tipo>
+                <data>26 DE OUT. 22:00</data>
+            </detalhe>
+            <detalhe>
+                <tipo>CORRIDA</tipo>
+                <data>27 DE OUT. 20:00</data>
+            </detalhe>
+        </detalhes>
+    </evento>
+    <evento>
+        <nome>GP DE SÃO PAULO</nome>
+        <data>03 DE NOV. 17:00</data>
+        <detalhesDaPista>https://upload.wikimedia.org/wikipedia/commons/0/05/Flag_of_Brazil.svg</detalhesDaPista>
+        <detalhes>
+            <detalhe>
+                <tipo>TREINO LIVRE 1</tipo>
+                <data>01 DE NOV. 14:30</data>
+            </detalhe>
+            <detalhe>
+                <tipo>SPRINT QUALIFICATORIO</tipo>
+                <data>01 DE NOV. 18:30</data>
+            </detalhe>
+            <detalhe>
+                <tipo>CORRIDA SPRINT</tipo>
+                <data>02 DE NOV. 14:00</data>
+            </detalhe>
+            <detalhe>
+                <tipo>TREINO CLASSIFICATÓRIO</tipo>
+                <data>02 DE NOV. 18:00</data>
+            </detalhe>
+            <detalhe>
+                <tipo>CORRIDA</tipo>
+                <data>03 DE NOV. 17:00</data>
+            </detalhe>
+        </detalhes>
+    </evento>
+    <evento>
+        <nome>GP DE LAS VEGAS</nome>
+        <data>23 DE NOV. 06:00</data>
+        <detalhesDaPista>https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg</detalhesDaPista>
+        <detalhes>
+            <detalhe>
+                <tipo>TREINO LIVRE 1</tipo>
+                <data>21 DE NOV. 02:30</data>
+            </detalhe>
+            <detalhe>
+                <tipo>TREINO LIVRE 2</tipo>
+                <data>21 DE NOV. 06:00</data>
+            </detalhe>
+            <detalhe>
+                <tipo>TREINO LIVRE 3</tipo>
+                <data>22 DE NOV. 02:30</data>
+            </detalhe>
+            <detalhe>
+                <tipo>TREINO CLASSIFICATÓRIO</tipo>
+                <data>22 DE NOV. 06:00</data>
+            </detalhe>
+            <detalhe>
+                <tipo>CORRIDA</tipo>
+                <data>23 DE NOV. 06:00</data>
+            </detalhe>
+        </detalhes>
+    </evento>
+    <evento>
+        <nome>GP DO QATAR</nome>
+        <data>01 DE DEZ. 01:00</data>
+        <detalhesDaPista>https://upload.wikimedia.org/wikipedia/commons/6/65/Flag_of_Qatar.svg</detalhesDaPista>
+        <detalhes>
+            <detalhe>
+                <tipo>TREINO LIVRE 1</tipo>
+                <data>28 DE NOV. 13:30</data>
+            </detalhe>
+            <detalhe>
+                <tipo>SPRINT QUALIFICATORIO</tipo>
+                <data>28 DE NOV. 17:30</data>
+            </detalhe>
+            <detalhe>
+                <tipo>CORRIDA SPRINT</tipo>
+                <data>29 DE NOV. 13:00</data>
+            </detalhe>
+            <detalhe>
+                <tipo>TREINO CLASSIFICATÓRIO</tipo>
+                <data>29 DE NOV. 17:30</data>
+            </detalhe>
+            <detalhe>
+                <tipo>CORRIDA</tipo>
+                <data>01 DE DEZ. 16:00</data>
+            </detalhe>
+        </detalhes>
+    </evento>
+    <evento>
+        <nome>GP DE ABU DHABI</nome>
+        <data>08 DE DEZ. 13:00</data>
+        <detalhesDaPista>https://upload.wikimedia.org/wikipedia/commons/c/cb/Flag_of_the_United_Arab_Emirates.svg</detalhesDaPista>
+        <detalhes>
+            <detalhe>
+                <tipo>TREINO LIVRE 1</tipo>
+                <data>06 DE DEZ. 09:30</data>
+            </detalhe>
+            <detalhe>
+                <tipo>TREINO LIVRE 2</tipo>
+                <data>06 DE DEZ. 13:00</data>
+            </detalhe>
+            <detalhe>
+                <tipo>TREINO LIVRE 3</tipo>
+                <data>07 DE DEZ. 10:30</data>
+            </detalhe>
+            <detalhe>
+                <tipo>TREINO CLASSIFICATÓRIO</tipo>
+                <data>07 DE DEZ. 14:00</data>
+            </detalhe>
+            <detalhe>
+                <tipo>CORRIDA</tipo>
+                <data>08 DE DEZ. 13:00</data>
+            </detalhe>
+        </detalhes>
+    </evento>
+</calendarioF1>

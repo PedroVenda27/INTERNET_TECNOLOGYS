@@ -1,0 +1,1016 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta chareset ="utf-8">
+    <meta name ="viewport" content ="width=device-width, initial-scale=1">
+    <title>F1 Flying Lap</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="Calendario.js" defer></script>
+
+    
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo"><i class='bx bxs-flag-checkered'></i>F1 Flying Lap</a>
+        
+        <ul class="navlist">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="sobrenos.html">Sobre Nós</a></li>
+            <li><a href="historia.html">Historia da F1</a></li>
+            <li><a href="calendario.html" class="active">Calendário</a></li>
+            <li><a href="loja.html">Loja</a></li>
+            <li><a href="contactos.html">Contactos</a></li>
+        </ul> 
+        <div class="nav-icons">
+            <a href="#"><i class='bx bx-cart'></i></a>
+            <div id="menu-icon">
+                <i class='bx bx-menu'></i>
+            </div>
+        </div>  
+    </header>
+    <section class="calendario">
+        <div class="calendario-content">
+            <div class="calendario-text">
+                <div class="tabelatermos">
+                    <h2>Calendário Formula 1  Época 2024</h2>
+                </div>
+                <div>
+                    <p>Calendario com todas as Datas e informações sobre todas as corridas da época de 2024</p>
+                    <table class="styled-table">
+                        <thead>
+                            <tr>
+                                <th>Evento</th>
+                                <th>Data</th>
+                                <th>Detalhes da Pista</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="expandable" onclick="toggleDetails('Bahrein-details')">
+                                <td>
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/2/2c/Flag_of_Bahrain.svg" class="flag" alt="Bahrain">
+                                    GP DO BAHREIN
+                                    <svg class="expand-icon">
+                                        <use xlink:href="https://upload.wikimedia.org/wikipedia/commons/0/0b/SVG_Circle.svg#circle" />
+                                    </svg>
+                                </td>
+                                <td>02 DE MAR. 15:00</td>
+                                <td class="details-link"><a href="Bahrain.html" target="_blank">Detalhes da Pista</a></td>
+                            </tr>
+                            <tr class="hidden-row" id="Bahrein-details">
+                                <td colspan="2">
+                                    <table>
+                                        <tbody>
+                                            <tr>
+                                                <td>TREINO LIVRE 1</td>
+                                                <td>29 DE FEV. 11:30</td>
+                                            </tr>
+                                            <tr>
+                                                <td>TREINO LIVRE 2</td>
+                                                <td>29 DE FEV. 15:00</td>
+                                            </tr>
+                                            <tr>
+                                                <td>TREINO LIVRE 3</td>
+                                                <td>01 DE MAR. 12:30</td>
+                                            </tr>
+                                            <tr>
+                                                <td>TREINO CLASSIFICATÓRIO</td>
+                                                <td>01 DE MAR. 16:00</td>
+                                            </tr>
+                                            <tr>
+                                                <td>CORRIDA</td>
+                                                <td>02 DE MAI. 15:00</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr class="expandable" onclick="toggleDetails('arabiasaudita-details')">
+                                <td>
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/0/0d/Flag_of_Saudi_Arabia.svg" class="flag" alt="Arábia Saudita">
+                                    GP DA ARÁBIA SAUDITA
+                                    <svg class="expand-icon">
+                                        <use xlink:href="https://upload.wikimedia.org/wikipedia/commons/0/0b/SVG_Circle.svg#circle" />
+                                    </svg>
+                                </td>
+                                <td>09 DE MAR. 17:00</td>
+                                <td class="details-link"><a href="Saudi.html" target="_blank">Detalhes da Pista</a></td>
+                            </tr>
+                            <tr class="hidden-row" id="arabiasaudita-details">
+                                <td colspan="2">
+                                    <table>
+                                        <tbody>
+                                            <tr>
+                                                <td>TREINO LIVRE 1</td>
+                                                <td>07 DE MAR. 13:30</td>
+                                            </tr>
+                                            <tr>
+                                                <td>TREINO LIVRE 2</td>
+                                                <td>07 DE MAR. 17:00</td>
+                                            </tr>
+                                            <tr>
+                                                <td>TREINO LIVRE 3</td>
+                                                <td>08 DE MAR. 13:30</td>
+                                            </tr>
+                                            <tr>
+                                                <td>TREINO CLASSIFICATÓRIO</td>
+                                                <td>08 DE MAR. 17:00</td>
+                                            </tr>
+                                            <tr>
+                                                <td>CORRIDA</td>
+                                                <td>09 DE MAR. 17:00</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr class="expandable" onclick="toggleDetails('australia-details')">
+                                <td>
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/b/b9/Flag_of_Australia.svg" class="flag" alt="Austrália">
+                                    GP DA AUSTRÁLIA
+                                    <svg class="expand-icon">
+                                        <use xlink:href="https://upload.wikimedia.org/wikipedia/commons/0/0b/SVG_Circle.svg#circle" />
+                                    </svg>
+                                </td>
+                                <td>24 DE MAR. 04:00</td>
+                                <td class="details-link"><a href="Australia.html" target="_blank">Detalhes da Pista</a></td>
+                            </tr>
+                            <tr class="hidden-row" id="australia-details">
+                                <td colspan="2">
+                                    <table>
+                                        <tbody>
+                                            <tr>
+                                                <td>TREINO LIVRE 1</td>
+                                                <td>22 DE MAR. 01:30</td>
+                                            </tr>
+                                            <tr>
+                                                <td>TREINO LIVRE 2</td>
+                                                <td>22 DE MAR. 05:00</td>
+                                            </tr>
+                                            <tr>
+                                                <td>TREINO LIVRE 3</td>
+                                                <td>23 DE MAR. 01:30</td>
+                                            </tr>
+                                            <tr>
+                                                <td>TREINO CLASSIFICATÓRIO</td>
+                                                <td>23 DE MAR. 05:00</td>
+                                            </tr>
+                                            <tr>
+                                                <td>CORRIDA</td>
+                                                <td>24 DE MAR. 04:00</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr class="expandable" onclick="toggleDetails('japan-details')">
+                                <td>
+                                    <img src="https://upload.wikimedia.org/wikipedia/en/9/9e/Flag_of_Japan.svg" class="flag" alt="Japão">
+                                    GP DO JAPÃO
+                                    <svg class="expand-icon">
+                                        <use xlink:href="https://upload.wikimedia.org/wikipedia/commons/0/0b/SVG_Circle.svg#circle" />
+                                    </svg>
+                                </td>
+                                <td>07 DE ABR. 06:00</td>
+                                <td class="details-link"><a href="Japan.html" target="_blank">Detalhes da Pista</a></td>
+                            </tr>
+                            <tr class="hidden-row" id="japan-details">
+                                <td colspan="2">
+                                    <table>
+                                        <tbody>
+                                            <tr>
+                                                <td>TREINO LIVRE 1</td>
+                                                <td>05 DE ABR. 03:30</td>
+                                            </tr>
+                                            <tr>
+                                                <td>TREINO LIVRE 2</td>
+                                                <td>05 DE ABR. 07:00</td>
+                                            </tr>
+                                            <tr>
+                                                <td>TREINO LIVRE 3</td>
+                                                <td>06 DE ABR. 03:30</td>
+                                            </tr>
+                                            <tr>
+                                                <td>TREINO CLASSIFICATÓRIO</td>
+                                                <td>06 DE ABR. 07:00</td>
+                                            </tr>
+                                            <tr>
+                                                <td>CORRIDA</td>
+                                                <td>07 DE ABR. 06:00</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr class="expandable" onclick="toggleDetails('china-details')">
+                                <td>
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Flag_of_the_People%27s_Republic_of_China.svg" class="flag" alt="China">
+                                    GP DA CHINA
+                                    <svg class="expand-icon">
+                                        <use xlink:href="https://upload.wikimedia.org/wikipedia/commons/0/0b/SVG_Circle.svg#circle" />
+                                    </svg>
+                                </td>
+                                <td>21 DE ABR. 08:00</td>
+                                <td class="details-link"><a href="Chinese.html" target="_blank">Detalhes da Pista</a></td>
+                            </tr>
+                            <tr class="hidden-row" id="china-details">
+                                <td colspan="2">
+                                    <table>
+                                        <tbody>
+                                            <tr>
+                                                <td>TREINO LIVRE 1</td>
+                                                <td>19 DE ABR. 04:30</td>
+                                            </tr>
+                                            <tr>
+                                                <td>CLASSIFICAÇÃO SPRINT</td>
+                                                <td>19 DE ABR. 08:30</td>
+                                            </tr>
+                                            <tr>
+                                                <td>CORRIDA SPRINT</td>
+                                                <td>20 DE ABR. 04:00</td>
+                                            </tr>
+                                            <tr>
+                                                <td>TREINO CLASSIFICATÓRIO</td>
+                                                <td>20 DE ABR. 08:00</td>
+                                            </tr>
+                                            <tr>
+                                                <td>CORRIDA</td>
+                                                <td>21 DE ABR. 08:00</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                                <td class="details-link"><a href="detalhes_bahrein.html" target="_blank">Detalhes da Pista</a></td>
+                            </tr>
+                            <tr>
+                                <tr class="expandable" onclick="toggleDetails('miami-details')">
+                                    <td>
+                                        <img src="https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg" class="flag" alt="EUA">
+                                        GP DE MIAMI
+                                        <svg class="expand-icon">
+                                            <use xlink:href="https://upload.wikimedia.org/wikipedia/commons/0/0b/SVG_Circle.svg#circle" />
+                                        </svg>
+                                    </td>
+                                    <td>05 DE MAI. 21:00</td>
+                                    <td class="details-link"><a href="Miami.html" target="_blank">Detalhes da Pista</a></td>
+                                </tr>
+                                <tr class="hidden-row" id="miami-details">
+                                    <td colspan="2">
+                                        <table>
+                                            <tbody>
+                                                <tr>
+                                                    <td>TREINO LIVRE 1</td>
+                                                    <td>03 DE MAI. 21:00</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>CLASSIFICATÓRIO SPRINT</td>
+                                                    <td>03 DE MAI. 17:30</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>CORRIDA SPRINT</td>
+                                                    <td>03 DE MAI. 21:30</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>TREINO CLASSIFICATÓRIO</td>
+                                                    <td>04 DE MAI. 21:00</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>CORRIDA</td>
+                                                    <td>05 DE MAI. 21:00</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr class="expandable" onclick="toggleDetails('emilia-details')">
+                                    <td>
+                                        <img src="https://upload.wikimedia.org/wikipedia/en/0/03/Flag_of_Italy.svg" class="flag" alt="Itália">
+                                        GP DA EMILIA ROMAGNA
+                                        <svg class="expand-icon">
+                                            <use xlink:href="https://upload.wikimedia.org/wikipedia/commons/0/0b/SVG_Circle.svg#circle" />
+                                        </svg>
+                                    </td>
+                                    <td>19 DE MAI. 14:00</td>
+                                    <td class="details-link"><a href="EmigliaRomana.html" target="_blank">Detalhes da Pista</a></td>
+                                </tr>
+                                <tr class="hidden-row" id="emilia-details">
+                                    <td colspan="2">
+                                        <table>
+                                            <tbody>
+                                                <tr>
+                                                    <td>TREINO LIVRE 1</td>
+                                                    <td>17 DE MAI. 14:00</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>TREINO LIVRE 2</td>
+                                                    <td>17 DE MAI. 12:30</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>TREINO LIVRE 3</td>
+                                                    <td>18 DE MAI. 11:00</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>TREINO CLASSIFICATÓRIO</td>
+                                                    <td>18 DE MAI. 14:00</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>CORRIDA</td>
+                                                    <td>19 DE MAI. 14:00</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr class="expandable" onclick="toggleDetails('monaco-details')">
+                                    <td>
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/e/ea/Flag_of_Monaco.svg" class="flag" alt="Mônaco">
+                                        GP DE MÔNACO
+                                        <svg class="expand-icon">
+                                            <use xlink:href="https://upload.wikimedia.org/wikipedia/commons/0/0b/SVG_Circle.svg#circle" />
+                                        </svg>
+                                    </td>
+                                    <td>26 DE MAI. 14:00</td>
+                                    <td class="details-link"><a href="Monaco.html" target="_blank">Detalhes da Pista</a></td>
+                                </tr>
+                                <tr class="hidden-row" id="monaco-details">
+                                    <td colspan="2">
+                                        <table>
+                                            <tbody>
+                                                <tr>
+                                                    <td>TREINO LIVRE 1</td>
+                                                    <td>24 DE MAI. 12:30</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>TREINO LIVRE 2</td>
+                                                    <td>24 DE MAI. 16:00</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>TREINO LIVRE 3</td>
+                                                    <td>25 DE MAI. 11:30</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>TREINO CLASSIFICATÓRIO</td>
+                                                    <td>25 DE MAI. 15:00</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>CORRIDA</td>
+                                                    <td>26 DE MAI. 14:00</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr class="expandable" onclick="toggleDetails('canada-details')">
+                                    <td>
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Flag_of_Canada_%28Pantone%29.svg" class="flag" alt="Canadá">
+                                        GP DO CANADÁ
+                                        <svg class="expand-icon">
+                                            <use xlink:href="https://upload.wikimedia.org/wikipedia/commons/0/0b/SVG_Circle.svg#circle" />
+                                        </svg>
+                                    </td>
+                                    <td>09 DE JUN. 14:00</td>
+                                    <td class="details-link"><a href="Canada.html" target="_blank">Detalhes da Pista</a></td>
+                                </tr>
+                                <tr class="hidden-row" id="canada-details">
+                                    <td colspan="2">
+                                        <table>
+                                            <tbody>
+                                                <tr>
+                                                    <td>TREINO LIVRE 1</td>
+                                                    <td>07 DE JUN. 14:30</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>TREINO LIVRE 2</td>
+                                                    <td>07 DE JUN. 18:00</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>TREINO LIVRE 3</td>
+                                                    <td>08 DE JUN. 13:30</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>TREINO CLASSIFICATÓRIO</td>
+                                                    <td>08 DE JUN. 17:00</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>CORRIDA</td>
+                                                    <td>09 DE JUN. 15:00</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr class="expandable" onclick="toggleDetails('espanha-details')">
+                                    <td>
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Flag_of_Spain.svg" class="flag" alt="Espanha">
+                                        GP DA ESPANHA
+                                        <svg class="expand-icon">
+                                            <use xlink:href="https://upload.wikimedia.org/wikipedia/commons/0/0b/SVG_Circle.svg#circle" />
+                                        </svg>
+                                    </td>
+                                    <td>23 DE JUN. 15:00</td>
+                                    <td class="details-link"><a href="Spain.html" target="_blank">Detalhes da Pista</a></td>
+                                </tr>
+                                <tr class="hidden-row" id="espanha-details">
+                                    <td colspan="2">
+                                        <table>
+                                            <tbody>
+                                                <tr>
+                                                    <td>TREINO LIVRE 1</td>
+                                                    <td>21 DE JUN. 13:30</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>TREINO LIVRE 2</td>
+                                                    <td>21 DE JUN. 17:00</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>TREINO LIVRE 3</td>
+                                                    <td>22 DE JUN. 12:30</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>TREINO CLASSIFICATÓRIO</td>
+                                                    <td>22 DE JUN. 16:00</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>CORRIDA</td>
+                                                    <td>23 DE JUN. 15:00</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr class="expandable" onclick="toggleDetails('austria-details')">
+                                    <td>
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/4/41/Flag_of_Austria.svg" class="flag" alt="Áustria">
+                                        GP DA ÁUSTRIA
+                                        <svg class="expand-icon">
+                                            <use xlink:href="https://upload.wikimedia.org/wikipedia/commons/0/0b/SVG_Circle.svg#circle" />
+                                        </svg>
+                                    </td>
+                                    <td>30 DE JUN. 14:00</td>
+                                    <td class="details-link"><a href="Austian.html" target="_blank">Detalhes da Pista</a></td>
+                                </tr>
+                                <tr class="hidden-row" id="austria-details">
+                                    <td colspan="2">
+                                        <table>
+                                            <tbody>
+                                                <tr>
+                                                    <td>TREINO LIVRE 1</td>
+                                                    <td>28 DE JUN. 11:30</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>SPRINT QUALIFICATORIO</td>
+                                                    <td>28 DE JUN. 15:30</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>CORRIDA SPRINT</td>
+                                                    <td>29 DE JUN. 11:00</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>TREINO CLASSIFICATÓRIO</td>
+                                                    <td>29 DE JUN. 15:00</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>CORRIDA</td>
+                                                    <td>30 DE JUN. 14:00</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr class="expandable" onclick="toggleDetails('gra-bretanha-details')">
+                                    <td>
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Flag_of_the_United_Kingdom_%283-5%29.svg/255px-Flag_of_the_United_Kingdom_%283-5%29.svg.png" class="flag" alt="Grã-Bretanha">
+                                        GP DA GRÃ-BRETANHA
+                                        <svg class="expand-icon">
+                                            <use xlink:href="https://upload.wikimedia.org/wikipedia/commons/0/0b/SVG_Circle.svg#circle" />
+                                        </svg>
+                                    </td>
+                                    <td>07 DE JUL. 05:00</td>
+                                    <td class="details-link"><a href="British.html" target="_blank">Detalhes da Pista</a></td>
+                                </tr>
+                                <tr class="hidden-row" id="gra-bretanha-details">
+                                    <td colspan="2">
+                                        <table>
+                                            <tbody>
+                                                <tr>
+                                                    <td>TREINO LIVRE 1</td>
+                                                    <td>05 DE JUL. 12:30</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>TREINO LIVRE 2</td>
+                                                    <td>05 DE JUL. 16:00</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>TREINO LIVRE 3</td>
+                                                    <td>06 DE JUL. 11:30</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>TREINO CLASSIFICATÓRIO</td>
+                                                    <td>06 DE JUL. 15:00</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>CORRIDA</td>
+                                                    <td>07 DE JUL. 15:00</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr class="expandable" onclick="toggleDetails('hungria-details')">
+                                    <td>
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Flag_of_Hungary.svg" class="flag" alt="Hungria">
+                                        GP DA HUNGRIA
+                                        <svg class="expand-icon">
+                                            <use xlink:href="https://upload.wikimedia.org/wikipedia/commons/0/0b/SVG_Circle.svg#circle" />
+                                        </svg>
+                                    </td>
+                                    <td>21 DE JUL. 14:00</td>
+                                    <td class="details-link"><a href="Hungary.html" target="_blank">Detalhes da Pista</a></td>
+                                </tr>
+                                <tr class="hidden-row" id="hungria-details">
+                                    <td colspan="2">
+                                        <table>
+                                            <tbody>
+                                                <tr>
+                                                    <td>TREINO LIVRE 1</td>
+                                                    <td>19 DE JUL. 12:30</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>TREINO LIVRE 2</td>
+                                                    <td>19 DE JUL. 16:00</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>TREINO LIVRE 3</td>
+                                                    <td>20 DE JUL. 11:30</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>TREINO CLASSIFICATÓRIO</td>
+                                                    <td>20 DE JUL. 15:00</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>CORRIDA</td>
+                                                    <td>21 DE JUL. 14:00</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr class="expandable" onclick="toggleDetails('belgica-details')">
+                                    <td>
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/6/65/Flag_of_Belgium.svg" class="flag" alt="Bélgica">
+                                        GP DA BÉLGICA
+                                        <svg class="expand-icon">
+                                            <use xlink:href="https://upload.wikimedia.org/wikipedia/commons/0/0b/SVG_Circle.svg#circle" />
+                                        </svg>
+                                    </td>
+                                    <td>28 DE JUL. 14:00</td>
+                                    <td class="details-link"><a href="Belgium.html" target="_blank">Detalhes da Pista</a></td>
+                                </tr>
+                                <tr class="hidden-row" id="belgica-details">
+                                    <td colspan="2">
+                                        <table>
+                                            <tbody>
+                                                <tr>
+                                                    <td>TREINO LIVRE 1</td>
+                                                    <td>26 DE JUL. 12:30</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>TREINO LIVRE 2</td>
+                                                    <td>26 DE JUL. 16:00</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>TREINO LIVRE 3</td>
+                                                    <td>27 DE JUL. 11:30</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>TREINO CLASSIFICATÓRIO</td>
+                                                    <td>27 DE JUL. 15:00</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>CORRIDA</td>
+                                                    <td>28 DE JUL. 14:00</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr class="expandable" onclick="toggleDetails('holanda-details')">
+                                    <td>
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/2/20/Flag_of_the_Netherlands.svg" class="flag" alt="Holanda">
+                                        GP DA HOLANDA
+                                        <svg class="expand-icon">
+                                            <use xlink:href="https://upload.wikimedia.org/wikipedia/commons/0/0b/SVG_Circle.svg#circle" />
+                                        </svg>
+                                    </td>
+                                    <td>25 DE AGO. 14:00</td>
+                                    <td class="details-link"><a href="Netherlands.html" target="_blank">Detalhes da Pista</a></td>
+                                </tr>
+                                <tr class="hidden-row" id="holanda-details">
+                                    <td colspan="2">
+                                        <table>
+                                            <tbody>
+                                                <tr>
+                                                    <td>TREINO LIVRE 1</td>
+                                                    <td>23 DE AGO. 11:30</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>TREINO LIVRE 2</td>
+                                                    <td>23 DE AGO. 15:00</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>TREINO LIVRE 3</td>
+                                                    <td>24 DE AGO. 10:30</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>TREINO CLASSIFICATÓRIO</td>
+                                                    <td>24 DE AGO. 14:00</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>CORRIDA</td>
+                                                    <td>25 DE AGO. 14:00</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr class="expandable" onclick="toggleDetails('italia-details')">
+                                    <td>
+                                        <img src="https://upload.wikimedia.org/wikipedia/en/0/03/Flag_of_Italy.svg" class="flag" alt="Itália">
+                                        GP DA ITÁLIA
+                                        <svg class="expand-icon">
+                                            <use xlink:href="https://upload.wikimedia.org/wikipedia/commons/0/0b/SVG_Circle.svg#circle" />
+                                        </svg>
+                                    </td>
+                                    <td>01 DE SET. 14:00</td>
+                                    <td class="details-link"><a href="Italian.html" target="_blank">Detalhes da Pista</a></td>
+                                </tr>
+                                <tr class="hidden-row" id="italia-details">
+                                    <td colspan="2">
+                                        <table>
+                                            <tbody>
+                                                <tr>
+                                                    <td>TREINO LIVRE 1</td>
+                                                    <td>30 DE AGO. 12:30</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>TREINO LIVRE 2</td>
+                                                    <td>30 DE AGO. 16:00</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>TREINO LIVRE 3</td>
+                                                    <td>31 DE AGO. 11:30</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>TREINO CLASSIFICATÓRIO</td>
+                                                    <td>31 DE AGO. 15:00</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>CORRIDA</td>
+                                                    <td>01 DE SET. 14:00</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr class="expandable" onclick="toggleDetails('azerbeijão-details')">
+                                    <td>
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/d/dd/Flag_of_Azerbaijan.svg" class="flag" alt="Azerbaijão">
+                                        GP DO AZERBAIJÃO
+                                        <svg class="expand-icon">
+                                            <use xlink:href="https://upload.wikimedia.org/wikipedia/commons/0/0b/SVG_Circle.svg#circle" />
+                                        </svg>
+                                    </td>
+                                    <td>15 DE SET. 12:00</td>
+                                    <td class="details-link"><a href="Azerbaijan.html" target="_blank">Detalhes da Pista</a></td>
+                                </tr>
+                                <tr class="hidden-row" id="azerbeijão-details">
+                                    <td colspan="2">
+                                        <table>
+                                            <tbody>
+                                                <tr>
+                                                    <td>TREINO LIVRE 1</td>
+                                                    <td>13 DE SET. 10:30</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>TREINO LIVRE 2</td>
+                                                    <td>13 DE SET. 14:00</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>TREINO LIVRE 3</td>
+                                                    <td>14 DE SET. 09:30</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>TREINO CLASSIFICATÓRIO</td>
+                                                    <td>14 DE SET. 13:00</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>CORRIDA</td>
+                                                    <td>15 DE SET. 12:00</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr class="expandable" onclick="toggleDetails('singapura-details')">
+                                    <td>
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/4/48/Flag_of_Singapore.svg" class="flag" alt="Singapura">
+                                        GP DE SINGAPURA
+                                        <svg class="expand-icon">
+                                            <use xlink:href="https://upload.wikimedia.org/wikipedia/commons/0/0b/SVG_Circle.svg#circle" />
+                                        </svg>
+                                    </td>
+                                    <td>22 DE SET. 01:00</td>
+                                    <td class="details-link"><a href="Singapore.html" target="_blank">Detalhes da Pista</a></td>
+                                </tr>
+                                <tr class="hidden-row" id="singapura-details">
+                                    <td colspan="2">
+                                        <table>
+                                            <tbody>
+                                                <tr>
+                                                    <td>TREINO LIVRE 1</td>
+                                                    <td>20 DE SET. 10:30</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>TREINO LIVRE 2</td>
+                                                    <td>20 DE SET. 14:00</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>TREINO LIVRE 3</td>
+                                                    <td>21 DE SET. 10:30</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>TREINO CLASSIFICATÓRIO</td>
+                                                    <td>21 DE SET. 14:00</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>CORRIDA</td>
+                                                    <td>22 DE SET. 13:00</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr class="expandable" onclick="toggleDetails('estados-unidos-details')">
+                                    <td>
+                                        <img src="https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg" class="flag" alt="EUA">
+                                        GP DOS ESTADOS UNIDOS
+                                        <svg class="expand-icon">
+                                            <use xlink:href="https://upload.wikimedia.org/wikipedia/commons/0/0b/SVG_Circle.svg#circle" />
+                                        </svg>
+                                    </td>
+                                    <td>18 DE OUT. 20:00</td>
+                                    <td class="details-link"><a href="USA.html" target="_blank">Detalhes da Pista</a></td>
+                                </tr>
+                                <tr class="hidden-row" id="estados-unidos-details">
+                                    <td colspan="2">
+                                        <table>
+                                            <tbody>
+                                                <tr>
+                                                    <td>TREINO LIVRE 1</td>
+                                                    <td>18 DE OCT. 18:30</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>SPRINT QUALIFICATORIO</td>
+                                                    <td>18 DE OCT. 22:30</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>CORRIDA SPRINT</td>
+                                                    <td>19 DE OCT. 19:00</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>TREINO CLASSIFICATÓRIO</td>
+                                                    <td>19 DE OCT. 23:00</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>CORRIDA</td>
+                                                    <td>20 DE OCT. 20:00</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr class="expandable" onclick="toggleDetails('mexico-details')">
+                                    <td>
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/Flag_of_Mexico.svg" class="flag" alt="México">
+                                        GP DO MÉXICO
+                                        <svg class="expand-icon">
+                                            <use xlink:href="https://upload.wikimedia.org/wikipedia/commons/0/0b/SVG_Circle.svg#circle" />
+                                        </svg>
+                                    </td>
+                                    <td>27 DE OUT. 20:00</td>
+                                    <td class="details-link"><a href="Mexican.html" target="_blank">Detalhes da Pista</a></td>
+                                </tr>
+                                <tr class="hidden-row" id="mexico-details">
+                                    <td colspan="2">
+                                        <table>
+                                            <tbody>
+                                                <tr>
+                                                    <td>TREINO LIVRE 1</td>
+                                                    <td>25 DE OCT. 19:30</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>TREINO LIVRE 2</td>
+                                                    <td>25 DE OCT. 23:00</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>TREINO LIVRE 3</td>
+                                                    <td>26 DE OCT. 18:30</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>TREINO CLASSIFICATÓRIO</td>
+                                                    <td>26 DE OCT. 22:00</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>CORRIDA</td>
+                                                    <td>27 DE OCT. 20:00</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr class="expandable" onclick="toggleDetails('brasil-details')">
+                                    <td>
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Flag_of_Brazil.svg" class="flag" alt="Brasil">
+                                        GP DE SÃO PAULO
+                                        <svg class="expand-icon">
+                                            <use xlink:href="https://upload.wikimedia.org/wikipedia/commons/0/0b/SVG_Circle.svg#circle" />
+                                        </svg>
+                                    </td>
+                                    <td>03 DE NOV. 17:00</td>
+                                    <td class="details-link"><a href="Brazilian.html" target="_blank">Detalhes da Pista</a></td>
+                                </tr>
+                                <tr class="hidden-row" id="brasil-details">
+                                    <td colspan="2">
+                                        <table>
+                                            <tbody>
+                                                <tr>
+                                                    <td>TREINO LIVRE 1</td>
+                                                    <td>01 DE NOV. 14:30</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>SPRINT QUALIFICATORIO</td>
+                                                    <td>01 DE NOV. 18:30</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>CORRIDA SPRINT</td>
+                                                    <td>02 DE NOV. 14:00</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>TREINO CLASSIFICATÓRIO</td>
+                                                    <td>02 DE NOV. 18:00</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>CORRIDA</td>
+                                                    <td>03 DE NOV. 17:00</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr class="expandable" onclick="toggleDetails('las-vegas-details')">
+                                    <td>
+                                        <img src="https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg" class="flag" alt="EUA">
+                                        GP DE LAS VEGAS
+                                        <svg class="expand-icon">
+                                            <use xlink:href="https://upload.wikimedia.org/wikipedia/commons/0/0b/SVG_Circle.svg#circle" />
+                                        </svg>
+                                    </td>
+                                    <td>23 DE NOV. 06:00</td>
+                                    <td class="details-link"><a href="LA.html" target="_blank">Detalhes da Pista</a></td>
+                                </tr>
+                                <tr class="hidden-row" id="las-vegas-details">
+                                    <td colspan="2">
+                                        <table>
+                                            <tbody>
+                                                <tr>
+                                                    <td>TREINO LIVRE 1</td>
+                                                    <td>21 DE NOV. 02:30</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>TREINO LIVRE 2</td>
+                                                    <td>21 DE NOV. 06:00</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>TREINO LIVRE 3</td>
+                                                    <td>22 DE NOV. 02:30</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>TREINO CLASSIFICATÓRIO</td>
+                                                    <td>22 DE NOV. 06:00</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>CORRIDA</td>
+                                                    <td>23 DE NOV. 06:00</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr class="expandable" onclick="toggleDetails('qatar-details')">
+                                    <td>
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/6/65/Flag_of_Qatar.svg" class="flag" alt="Catar">
+                                        GP DO QATAR
+                                        <svg class="expand-icon">
+                                            <use xlink:href="https://upload.wikimedia.org/wikipedia/commons/0/0b/SVG_Circle.svg#circle" />
+                                        </svg>
+                                    </td>
+                                    <td>01 DE DEZ. 01:00</td>
+                                    <td class="details-link"><a href="Qatar.html" target="_blank">Detalhes da Pista</a></td>
+                                </tr>
+                                <tr class="hidden-row" id="qatar-details">
+                                    <td colspan="2">
+                                        <table>
+                                            <tbody>
+                                                <tr>
+                                                    <td>TREINO LIVRE 1</td>
+                                                    <td>28 DE NOV. 13:30</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>SPRINT QUALIFICATORIO</td>
+                                                    <td>28 DE NOV. 17:30</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>CORRIDA SPRINT</td>
+                                                    <td>29 DE NOV. 13:00</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>TREINO CLASSIFICATÓRIO</td>
+                                                    <td>29 DE NOV. 17:30</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>CORRIDA</td>
+                                                    <td>01 DE DEZ. 16:00</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr class="expandable" onclick="toggleDetails('abu-dhabi-details')">
+                                    <td>
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_United_Arab_Emirates.svg/1920px-Flag_of_the_United_Arab_Emirates.svg.png" class="flag" alt="Abu Dhabi">
+                                        GP DE ABU DHABI
+                                        <svg class="expand-icon">
+                                            <use xlink:href="https://upload.wikimedia.org/wikipedia/commons/0/0b/SVG_Circle.svg#circle" />
+                                        </svg>
+                                    </td>
+                                    <td>08 DE DEZ. 13:00</td>
+                                    <td class="details-link"><a href="AbuhDhabi.html" target="_blank">Detalhes da Pista</a></td>
+                                </tr>
+                                <tr class="hidden-row" id="abu-dhabi-details">
+                                    <td colspan="2">
+                                        <table>
+                                            <tbody>
+                                                <tr>
+                                                    <td>TREINO LIVRE 1</td>
+                                                    <td>06 DE DEZ. 09:30</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>TREINO LIVRE 2</td>
+                                                    <td>06 DE DEZ. 13:00</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>TREINO LIVRE 3</td>
+                                                    <td>07 DE DEZ. 10:30</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>TREINO CLASSIFICATÓRIO</td>
+                                                    <td>07 DE DEZ. 14:00</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>CORRIDA</td>
+                                                    <td>08 DE DEZ. 13:00</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td colspan="3" style="text-align: center;">
+                                    <a href="CalendarioF1.xml" download>Baixar Calendário - XML </a>
+                                </td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <a href="#" class="scroll">
+        <i class='bx bx-up-arrow-alt'></i><a href="#"></a>
+    </a>
+
+    <script src="script.js"></script>
+        
+</body>
+</html>
+
+
+  
